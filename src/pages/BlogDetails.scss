@@ -1,0 +1,142 @@
+/* Imported font: Inter */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;800&display=swap");
+
+/* Post Content */
+.post-header {
+  width: 100%;
+  height: 500px;
+  background: firebrick;
+}
+
+.post-container {
+  max-width: 800px;
+  margin: auto;
+  // width: 100%;
+}
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0 !important;
+}
+
+.back-home {
+  color: white;
+  font-size: 0.9rem;
+}
+
+.header-title {
+  width: 90%;
+  font-size: 2.6rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  color: antiquewhite;
+}
+
+.header-img {
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.post-content {
+  margin-top: 10rem !important;
+  padding: 0 20px;
+  padding-bottom: 50px;
+}
+.sub-heading {
+  font-size: 1.2rem;
+}
+
+.post-text {
+  font-size: 1rem;
+  line-height: 1.7rem;
+  margin: 1rem 0;
+  // text-align: justify;
+}
+
+/*Share*/
+
+.footerf {
+  background: whitesmoke;
+  color: black;
+  text-align: center;
+  padding: 2rem 0;
+}
+.social-links2 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.4rem;
+
+  button{
+    margin: 0 5px;
+  }
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+  .header-content {
+    margin-top: 0 !important;
+  }
+
+  .header-title {
+    font-size: 2rem;
+  }
+
+  .header-img {
+    height: 370px;
+    width: auto;
+  }
+
+  .post-header {
+    height: 380px;
+  }
+
+  // .post-content {
+  //   margin-top: 9rem !important;
+  // }
+}
+
+@media screen and (max-width: 570px) {
+  .post-header {
+    height: 390px;
+  }
+
+  .header-title {
+    width: 100%;
+  }
+
+  .header-img {
+    height: 240px;
+    width: 100vw;
+  }
+}
+
+@media (max-width: 396px) {
+  .header-title {
+    font-size: 1.4rem;
+  }
+  .header-img {
+    height: 240px;
+  }
+
+  .post-header {
+    height: 335px;
+  }
+
+  .post-content {
+    margin-top: 5rem !important;
+  }
+
+  .post-text {
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+    margin: 10px 0;
+  }
+}
