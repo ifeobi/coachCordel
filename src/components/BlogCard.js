@@ -8,6 +8,8 @@ const BlogCard = () => {
   let { loading, data, error } = useFetch(
     `${process.env.React_App_REACT_APP_URL_API}?populate=*`
   );
+
+  console.log(data)
   if (loading) return <p>Loading...</p>;
   if (error) return <p>Error :( </p>;
 

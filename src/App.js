@@ -2,6 +2,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import BlogCard from "./components/BlogCard";
 import BlogDetails from "./pages/BlogDetails";
 import Home from "./pages/Home";
+import Privacy from "./pages/Privacy";
 
 const router = createBrowserRouter([
   {
@@ -11,6 +12,10 @@ const router = createBrowserRouter([
         index: true,
         path: "",
         element: <Home />,
+      }, 
+      {
+        path: '/privacy',
+        element: <Privacy />
       },
       {
         path: "/tips",

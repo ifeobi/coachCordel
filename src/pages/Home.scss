@@ -2,6 +2,7 @@
   font-family: "Poppins";
 }
 
+
 .home {
   height: 100vh;
   display: flex;
@@ -10,6 +11,11 @@
   background-size: cover;
   background-color: rgba(50, 49, 49, 0.699);
   background-blend-mode: multiply;
+
+  a {
+    text-decoration: none;    
+  }
+  
 
   .hea {
     // border: 2px solid red;
@@ -76,7 +82,8 @@
 
   .footer {
     display: flex;
-    height: 18px;
+    flex-direction: column;
+    // height: 18px;
     color: white;
     justify-content: center;
     align-items: center;

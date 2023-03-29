@@ -29,15 +29,15 @@ function Home() {
         <div className="image"></div>
       </main>
       <div className="footer">
-        <p>
-          {" "}
+        <Link to="/privacy">Privacy Policy</Link>
+        <p style={{marginBottom: "0"}}>
           Phone: +234 806 506 8366, Suite A23 Garima Plaza Arab Road, Kubwa,
           FCT, Nigeria
         </p>
       </div>
       <a
         href="https://wa.me/+2348065068366?text=Hello%2C%20I%20have%20a%20question%20about%20your%20services."
-        className="float"        
+        className="float"
       >
         <i className="fa fa-whatsapp my-float"></i>
       </a>
